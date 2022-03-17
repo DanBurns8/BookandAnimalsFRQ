@@ -11,7 +11,23 @@ public class BookTester{
         myLibrary.add(book2);
         book1.printBookInfo();
         System.out.println();
+        System.out.println();
         book2.printBookInfo();
         System.out.println();
+        System.out.println();
+
+        BookListing listing1 = new BookListing(book1, 10.99);
+        listing1.printDescription();
+        System.out.println();
+
+        BookListing listing2 = new BookListing(book2, 12.99);
+        listing2.printDescription();
     }
 }
+//        Frankenstein, written by Mary Shelley
+//
+//        The Wonderful Wizard of Oz, written by L. Frank BaumIllustrated by W.W. Denslow
+//
+//        Frankenstein, written by Mary Shelley, $10.99
+//
+//        The Wonderful Wizard of Oz, written by L. Frank BaumIllustrated by W.W. Denslow, $12.99

@@ -10,6 +10,6 @@ public class PictureBook extends Book {
     }
     public void printBookInfo(){
         super.printBookInfo();
-        System.out.println("Illustrated by "+illustrator);
+        System.out.print("Illustrated by "+illustrator);
     }
 }
